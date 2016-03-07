@@ -8,8 +8,10 @@ Data set:
 Data consists of 807800 records/tweets collected from 2012 to 2015. There are 4 variables: tweets, date, username, and twitter account name.
 
 Steps of analysis:
+
 1. Data collection
 Collect all tweets from 2012 to 2015 that contain vaccination related words. The related words (in Indonesian) are: "vaksin", "imunisasi", "vaksinasi"
+
 2. Data exploration and preparation that includes:
 - removing duplicate records. Duplicate records are records with the same tweet, username, twitter account , and date.
 - removing link from tweet
