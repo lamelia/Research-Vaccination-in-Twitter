@@ -9,11 +9,11 @@ Data consists of 807800 records/tweets collected from 2012 to 2015. There are 4 
 
 Steps of analysis:
 
->> Data collection
+>> Data collection <<
 
 Collect all tweets from 2012 to 2015 that contain vaccination related words. The related words (in Indonesian) are: "vaksin", "imunisasi", "vaksinasi"
 
->> Data exploration and preparation that includes:
+>> Data exploration and preparation that includes: <<
 
 - removing duplicate records. Duplicate records are records with the same tweet, username, twitter account , and date.
 - removing link from tweet
@@ -25,7 +25,7 @@ Collect all tweets from 2012 to 2015 that contain vaccination related words. The
 - stemming words using Indonesian stemmer: Sastrawi (https://github.com/sastrawi/sastrawi)
 - Creating sparse matrix from all tweets
 
->> Data analysis
+>> Data analysis <<
 
 I try to find interesting things from the data before building my model to predict a tweet as pro, anti, neutral, or irrelevant to vaccination. 
 
